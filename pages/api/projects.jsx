@@ -2,17 +2,24 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://media.discordapp.net/attachments/737348411568685066/954502826791428136/codeshare_logo.png",
-      name: "Code Share",
-      description: "Discord türkiyenin en büyük discord bot komutları arşivi ve en büyük discord botu uptime, hostlayıcı websitesi. Code Share veritabanında discord botlarına özgü yüzlerce discord bot komutu bulunmaktadır ve kendi discord botunuzu yaratmanıza yardımcı olur.",
-      link: "https://codeshare.me",
+      image: "https://media.discordapp.net/attachments/991008844496920606/1045381327190499348/Mineria_Hosting_Logo.png?width=400&height=400",
+      name: "Mineria Hosting",
+      description: "Mineria Hosting bir sanal sunucu VDS/VPS kiralama firmasıdır. Hem hızlı hem performanslı şekilde teslim edilir. Sizde VDS/VPS sorunu çekiyorsanız veya memnun değilseniz Mineria Hostingi tercih edebilirsiniz.",
+      link: "https://mineriahosting.com.tr",
     },
     {
       id: 2,
-      image: "https://media.discordapp.net/attachments/737348411568685066/999563078079361074/YT_AVATAR_NET.jpg",
-      name: "Youtube Channel",
-      description: "I am a professional editor and intermediate software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management. I post videos about discord on my youtube channel.",
-      link: "https://youtube.com/UmutBayraktarYT",
+      image: "https://cdn.discordapp.com/attachments/990693704815767592/1045380399695679508/unknown.png",
+      name: "Victory Development",
+      description: "Victory BOT'un destek sunucusu ve Discord Botlar hakkında yardım ettiğimiz bir geliştirici sunucusu.",
+      link: "https://discord.gg/eE8tefxqT7",
+    },
+    {
+      id: 3,
+      image: "https://media.discordapp.net/attachments/991008844496920606/1045382300378091580/static.png?width=205&height=205",
+      name: "Mineria Reklam Merkezi",
+      description: "Mineria Reklam Merkezi bir bedavaya özel oda açtırarak veya reklam kanallarımızda sunucularınızın reklamını yaptırabileceğiniz bir platform.",
+      link: "https://discord.gg/eE8tefxqT7",
     }
   ];
   res.status(200).json(data);
