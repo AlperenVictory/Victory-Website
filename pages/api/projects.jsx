@@ -20,6 +20,13 @@ export default async (req, res) => {
       name: "Mineria Reklam Merkezi",
       description: "Mineria Reklam Merkezi bir bedavaya özel oda açtırarak veya reklam kanallarımızda sunucularınızın reklamını yaptırabileceğiniz bir platform.",
       link: "https://discord.gg/eE8tefxqT7",
+    },
+    {
+      id: 4,
+      image: "https://cdn.discordapp.com/attachments/1043811769841352754/1046342115862519889/standard.gif",
+      name: "Mineria Roleplay",
+      description: "Mineria Roleplay tecrübeli yetkili ekibi ile sizlere kaliteli rol sunan bir FiveM sunucusudur. 2019'dan beri TOP#1 sunucuları yönetmiş kaliteli yönetim ekibi ile en iyi rp deneyimini sunuyor. Sizleride Bekleriz :)",
+      link: "https://discord.gg/eE8tefxqT7",
     }
   ];
   res.status(200).json(data);
