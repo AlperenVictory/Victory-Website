@@ -2,7 +2,7 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://media.discordapp.net/attachments/991008844496920606/1045381327190499348/Mineria_Hosting_Logo.png?width=400&height=400",
+      image: "https://media.discordapp.net/attachments/1044633591587557477/1047911496698564739/mineriahostingpp.jpg?width=468&height=468",
       name: "Mineria Hosting",
       description: "Mineria Hosting bir sanal sunucu VDS/VPS kiralama firmasıdır. Hem hızlı hem performanslı şekilde teslim edilir. Sizde VDS/VPS sorunu çekiyorsanız veya memnun değilseniz Mineria Hostingi tercih edebilirsiniz.",
       link: "https://mineriahosting.com.tr",
@@ -16,17 +16,10 @@ export default async (req, res) => {
     },
     {
       id: 3,
-      image: "https://media.discordapp.net/attachments/991008844496920606/1045382300378091580/static.png?width=205&height=205",
-      name: "Mineria Reklam Merkezi",
-      description: "Mineria Reklam Merkezi bir bedavaya özel oda açtırarak veya reklam kanallarımızda sunucularınızın reklamını yaptırabileceğiniz bir platform.",
-      link: "https://discord.gg/eE8tefxqT7",
-    },
-    {
-      id: 4,
-      image: "https://cdn.discordapp.com/attachments/1043811769841352754/1046342115862519889/standard.gif",
-      name: "Mineria Roleplay",
-      description: "Mineria Roleplay tecrübeli yetkili ekibi ile sizlere kaliteli rol sunan bir FiveM sunucusudur. 2019'dan beri TOP#1 sunucuları yönetmiş kaliteli yönetim ekibi ile en iyi rp deneyimini sunuyor. Sizleride Bekleriz :)",
-      link: "https://discord.gg/eE8tefxqT7",
+      image: "https://media.discordapp.net/attachments/991008844496920606/1050447308321472512/150.png?width=144&height=144",
+      name: "Victory Roleplay",
+      description: "Victory Roleplay tecrübeli yetkili ekibi ile sizlere kaliteli rol sunan bir FiveM sunucusudur. 2019'dan beri TOP#1 sunucuları yönetmiş kaliteli yönetim ekibi ile en iyi rp deneyimini sunuyor. Sizleride Bekleriz :)",
+      link: "https://discord.gg/tfJ72D6h",
     }
   ];
   res.status(200).json(data);
