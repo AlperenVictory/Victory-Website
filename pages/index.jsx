@@ -30,7 +30,7 @@ I am a professional editor and software developer. I have been professionally in
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="Victory" src={`https://media.discordapp.net/attachments/979016557038563399/1003284669573365862/4fe3f436f7e47d9000b86c792281e579.gif`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="Victory" src={`https://media.discordapp.net/attachments/700292105615966262/1043191216055013466/104.gif?width=225&height=225`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Online" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-online`} />
